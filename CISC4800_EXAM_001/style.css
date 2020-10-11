@@ -1,0 +1,40 @@
+*{
+font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 100px;
+    
+}
+img{
+    max-width:20%;
+    height:auto;
+}
+.main{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.top{
+    text-align: center;
+}
+h1{
+    font-weight: lighter;
+}
+table, th, td {
+    text-align: left;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    padding-bottom: 10px;
+    font-size: small;
+}
+table{
+    width:85%;
+}
+p{
+    font-size: smaller;
+}
+li{
+    font-size: smaller;
+    padding-left: 20px;
+}
+
