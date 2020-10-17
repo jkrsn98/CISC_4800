@@ -1,45 +1,58 @@
-
 body {
     background-color: rgb(246, 246, 246);
     font-family: Arial, Helvetica, sans-serif;
-  }
+}
 
-  .nav{
-        border-bottom: 1px solid slategray;
-        width:100%;
-        margin-bottom: 50px;
-        background-color: rgb(246, 246, 246);
-  }
-  .nav ul {
+.nav {
+    border-bottom: 1px solid slategray;
+    width: 100%;
+    margin-bottom: 50px;
+    background-color: rgb(246, 246, 246);
+}
+
+.nav ul {
     margin: 0;
     padding: 0;
     text-align: center;
-  }
-  
-  .nav li {
+}
+
+.nav li {
     font-size: smaller;
     font-weight: 100;
     letter-spacing: 2px;
     padding: 5px;
-  }
-  .nav li a{
+}
+
+.nav li a {
     text-decoration: none;
 
-  }
-  .nav li a:hover{
-    letter-spacing: 3px;
-}
-  .title{
-    color: rgb(123, 105, 123);
-    font-size: 22px !important;
-    font-weight: 700;
-    letter-spacing: 16px;
 }
 
-  .articleHead{
-      text-align: center;
-  }
-  .articleHead #img{
+.nav li a:hover {
+    letter-spacing: 3px;
+}
+
+.logo {
+    color: darkred;
+    font-size: 54px !important;
+    padding: 20px 30px;
+    margin: 20px;
+    text-align: left;
+    width: 185px;
+    letter-spacing: -4px;
+    padding-top: 1px;
+    padding-right: 0px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    border: 3px solid white;
+    position: relative;
+}
+
+.articleHead {
+    text-align: center;
+}
+
+.articleHead #img {
     background-image: url("./article2.jpg");
     background-size: cover;
     background-position: bottom center;
@@ -50,30 +63,40 @@ body {
     margin-left: auto;
     margin-right: auto;
     border: 1px solid black;
-  }
+}
 
-  .articleHead h2 {
-    border: 3px solid white;
-    position: relative;
-    top: 50px;
-    width: 400px;
-    margin: 0 auto;
-  }
+.image #imgCaption {
+    margin-top: -75px;
+}
 
-  .image #imgCaption{
-      margin-top: -75px;
-  }
-
-  .articleHead #title {
+.articleHead #title {
     color: darkred;
-    font-size: 54px !important;
+    font-size: 36px !important;
     line-height: 48px;
     padding: 20px 30px;
     margin: -50px 20px;
     text-align: center;
     font-size: xx-large;
-  }
-  #author li{
+    border-bottom: 3px solid white;
+    top: 50px;
+    width: 600px;
+    height: 80px;
+    margin: -50px auto;
+    */
+}
+
+.articleHead #subtitle {
+    color: darkred;
+    font-size: 18px !important;
+    line-height: 48px;
+    padding: 20px 30px;
+    margin: 0px 20px;
+    text-align: center;
+    font-size: xx-large;
+    /* border: 3px solid black; */
+}
+
+#author li {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -82,38 +105,39 @@ body {
     font-weight: 100;
     letter-spacing: 2px;
     padding: 10px;
-  }
-  #author #name{
-      font-size: x-large;
-  }
+}
 
-  .body {
+#author #name {
+    font-size: x-large;
+}
+
+.body {
     margin: 0 auto;
     padding: 40px;
     padding-top: 0px;
     text-align: center;
     width: 800px;
-  }
+}
 
-  p {
+p {
     color: grey;
     font-size: 16px;
     line-height: 48px;
     margin-top: 60px;
     padding: 10px 20px;
-  }
+}
 
 
-  .footer{
+.footer {
     border-top: 1px solid lightgray;
     position: relative;
     text-align: center;
     width: 100%;
     height: 10px;
-  }
+}
 
- .footer a {
-     font-size: smaller;
+.footer a {
+    font-size: smaller;
     background: darkred;
     border: 1px solid black;
     border-radius: 3px;
@@ -123,13 +147,15 @@ body {
     margin-right: 25px;
     padding: 6px;
     text-decoration: none;
-  }
-  .footer a:hover {
+}
+
+.footer a:hover {
     background: white;
     border: 1px solid red;
     color: darkred;
-  }
-  .footer #trademark{
-      margin-top: -10px;
-      color: slategray;
-  }
+}
+
+.footer #trademark {
+    margin-top: -10px;
+    color: slategray;
+}
