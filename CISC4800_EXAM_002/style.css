@@ -1,0 +1,39 @@
+* {
+  text-align: center;
+  background-color: rgb(243, 233, 233);
+}
+
+.prompt {
+  margin: 250px 0px auto;
+  padding-bottom: 50px;
+  font-size: 60px;
+}
+
+button {
+  border: 1px solid gray;
+  color: rgb(164, 129, 197);
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 12px;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: rgb(246, 241, 241);
+  border: 1px solid gray;
+}
+
+.response-container {
+  margin: 100px auto;
+  width: 500px;
+  height: 300px;
+}
+
+#response {
+  font-size: 52px;
+  font-weight: 500;
+  font-style: italic;
+}
